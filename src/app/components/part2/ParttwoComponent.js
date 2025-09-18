@@ -2,9 +2,9 @@ import React from 'react';
 
 const ParttwoComponent = () => {
     return (
-    <div className="w-full h-auto bg-[#F5F7FA] justify-center grid lg:grid-cols-2 grid-cols-1 px-6 lg:px-12 py-12 overflow-x-hidden gap-4">
+    <div className="w-full h-auto bg-white justify-center grid lg:grid-cols-2 grid-cols-1 px-6 lg:px-12 py-12 overflow-x-hidden gap-4">
       <div className="w-full h-full flex flex-col items-center justify-center gap-4">
-        <p className="text-3xl md:text-5xl font-bold leading-tight text-center lg:text-left break-words whitespace-normal">
+        <p className="text-black text-3xl md:text-5xl font-bold leading-tight text-center lg:text-left break-words whitespace-normal">
           Wanna Transform Your Business with Smarter 
           <span className="text-[#43A046]"> IT Solutions?</span>
         </p>
