@@ -1,5 +1,5 @@
 import React from 'react';
-import ParteightCard from './parteightCard';
+import ParteightCard from './ParteightCard';
 const ParteightComponent = () => {
   return (
     <div className="w-full h-auto bg-[#F5F7FA] justify-center grid lg:grid-cols-2 grid-cols-1 px-6 lg:px-12 py-12 overflow-x-hidden gap-4">
@@ -18,7 +18,7 @@ const ParteightComponent = () => {
 
 
       <div className="w-full h-full grid grid-cols-2  justify-center ">
-        <div className=' w-full h-100 grid grid-rows-2 gap-2'>
+        <div className=' w-full h-100 grid grid-rows-2 '>
           
          <ParteightCard image="slide8\icon4.png" title="2,245,341" subtitle="Members" ></ParteightCard>
           <ParteightCard image="slide8\icon1.png" title="828,867" subtitle="Event Bookings" ></ParteightCard>
