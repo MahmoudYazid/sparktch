@@ -7,7 +7,7 @@ const Part7Component = () => {
         <img src="part5Image.png" alt="part1img" className="w-[30rem] h-[30rem]" />
       </div>
       <div className="w-full h-full flex flex-col items-center justify-center gap-4">
-        <p className="text-3xl md:text-5xl font-bold leading-tight text-center lg:text-left break-words whitespace-normal">
+        <p className="text-black text-3xl md:text-5xl font-bold leading-tight text-center lg:text-left break-words whitespace-normal">
           The unseen of spending three years at Pixelgrade
         </p>
         <div className="w-full">
