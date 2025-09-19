@@ -2,7 +2,7 @@ import Part12Cards from "./Part12Cards";
 
 const Part12Component = () => {
     return (
-<div className="w-full h-auto md:flex md:flex-row grid grid-col-1 item-center justify-center text-center flex-wrap ">
+<div className="w-full h-auto md:flex md:flex-row grid grid-col-1 item-center justify-center text-center flex-wrap bg-white">
   <Part12Cards 
     image="part12/image1.png" 
     title="Revamping the Membership Model with Triathlon Australia" 
