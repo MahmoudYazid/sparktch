@@ -10,12 +10,12 @@ const ParttwoComponent = () => {
         </p>
         <div className="w-full">
           <p className="text-[#717171] text-[1.2rem] text-center lg:text-left break-words whitespace-normal">
-            Where to grow your business as a photographer: site or social media?
+           Take the first step towards unlocking your business potential with our expert IT consulting and technology solutions. Schedule a free evaluation to explore how we can drive your digital transformation and elevate your operations.
           </p>
         </div>
         <div className="w-full  flex items-center justify-center lg:justify-start">
           <button className="bg-[#4CAF4F] text-white rounded-md px-8 py-4 hover:bg-[#45a049] font-bold">
-            Register
+            GET FREE CONSULTANCY
           </button>
         </div>
       </div>

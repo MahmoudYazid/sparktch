@@ -16,12 +16,10 @@ import Footer from "./components/footer/footer";
 
 export default function Home() {
   return (
-    <main className="min-h-full w-full grid-rows-[auto_auto_auto_auto_auto_auto_auto_auto_auto_auto_auto_auto]  grid  ">
+    <main className="min-h-full w-full grid-rows-[auto_auto_auto_auto_auto_auto_auto_auto_auto_auto]  grid  ">
       <NavbarComponent></NavbarComponent>
       <ParttwoComponent></ParttwoComponent>
-      <PartthreeComponent></PartthreeComponent>
       
-      <PartfourComponent></PartfourComponent>
       <PartfiveComponent></PartfiveComponent>
       <SlideSixComponent></SlideSixComponent>
 
