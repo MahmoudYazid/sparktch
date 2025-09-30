@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 
 const PartneinComponent = () => {
@@ -19,9 +20,9 @@ Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tinc
 Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.          </p>
         </div>
         <div className="w-full  flex items-center justify-center lg:justify-start">
-          <button className="bg-[#4CAF4F] text-white rounded-md px-8 py-4 hover:bg-[#45a049] font-bold">
+          <div className="bg-[#4CAF4F] text-white rounded-md px-8 py-4 hover:bg-[#45a049] font-bold">
             Learn More
-          </button>
+          </div>
         </div>
       </div>
 

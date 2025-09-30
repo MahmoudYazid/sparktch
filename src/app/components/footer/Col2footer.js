@@ -1,3 +1,4 @@
+"use client";
 const Col2footer = () => {
   return (
     <div className="space-y-2 text-gray-300 flex flex-col item-center justify-center">

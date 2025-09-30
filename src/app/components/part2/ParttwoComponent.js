@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 
 const ParttwoComponent = () => {
@@ -14,9 +15,9 @@ const ParttwoComponent = () => {
           </p>
         </div>
         <div className="w-full  flex items-center justify-center lg:justify-start">
-          <button className="bg-[#4CAF4F] text-white rounded-md px-8 py-4 hover:bg-[#45a049] font-bold">
+          <div className="bg-[#4CAF4F] text-white rounded-md px-8 py-4 hover:bg-[#45a049] font-bold">
             GET FREE CONSULTANCY
-          </button>
+          </div>
         </div>
       </div>
 

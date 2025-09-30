@@ -1,3 +1,4 @@
+"use client";
 const Col4footer = () => {
   return (
     <div className="text-gray-300 flex flex-col item-center justify-center">

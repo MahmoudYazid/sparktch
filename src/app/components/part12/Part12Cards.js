@@ -1,12 +1,33 @@
+"use client";
+
 import { FaClock, FaLayerGroup } from "react-icons/fa";
 import { BiSolidCircle } from 'react-icons/bi';
+import { useSelector, useDispatch } from 'react-redux'
+import { openWindow } from "@/app/redux/subPageSignal";
+
 const Part12Cards = ({ image, title }) => {
+    const dispatch = useDispatch()
+
   return (
     <div className="relative w-full h-full bg-black grid grid-row-9 border border-black-700 rounded-lg overflow-hidden">
 
-      <div className="bg-red-200 w-full h-full"></div>
-      <div className="bg-blue-200 w-full h-full"></div>
-      <div className="bg-green-200 w-full h-full"></div>
+      <div className=" w-full h-full text-gray-400"></div>
+      <div className="flex items-center justify-end w-full max-w-xs text-gray-400 p-3 rounded-xl">
+
+
+        <span className="bg-[#0b2b23] text-[#0f713b] text-xs px-3 py-1 rounded-full font-medium">
+          Standard
+        </span>
+      </div>
+
+
+      <div className="flex flex-col  text-gray-400   justify-end items-start  gap-3 pl-[1.1rem] ">
+        <div className="flex flex-row items-start justify-start text-[.7rem]  rounded-[2rem] p-1">
+          <div className="bg-gradient-to-br from-[#4F8EF7] to-[#8B5CF6] w-16 h-16 rounded-xl flex items-center justify-center text-white font-bold">
+            RPO
+          </div>
+        </div>
+      </div>
 
 
       <div className="flex flex-col  text-gray-400   justify-end items-start  gap-3 pl-[1.1rem] ">
@@ -82,11 +103,11 @@ const Part12Cards = ({ image, title }) => {
       </div>
 
 
-      <div className="bg-black w-full h-full flex items-center justify-center">
-        <button className="text  hover:
-  bg-[#4CAF4F] text-white rounded-md px-8 py-4  font-bold bg-gray-700">
+      <div className="bg-black w-full h-[3rem] flex items-center justify-center">
+        <div className="text  hover:
+  bg-[#4CAF4F] text-white rounded-md px-8 py-4  font-bold bg-gray-700 cursor-pointer" onClick={() => dispatch(openWindow())}>
           Learn More
-        </button>
+        </div>
 
       </div>
 

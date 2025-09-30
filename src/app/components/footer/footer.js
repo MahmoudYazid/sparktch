@@ -1,3 +1,4 @@
+"use client";
 import Col1footer from "./Col1footer";
 import Col2footer from "./Col2footer";
 import Col3footer from "./Col3footer";

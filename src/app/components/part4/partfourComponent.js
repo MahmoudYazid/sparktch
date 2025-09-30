@@ -1,4 +1,5 @@
 
+"use client";
 const PartfourComponent = () => {
     return (
      <div className="w-full h-auto bg-white flex flex-row item-center justify-center gap-[9rem] pt-8 flex-wrap ">
