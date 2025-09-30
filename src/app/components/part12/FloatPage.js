@@ -125,7 +125,7 @@ const FloatPage = () => {
               Get Started
             </button>
             <button
-              onClick={() => console.log("close")}
+          onClick={() => dispatch(closeWindow())}
               className="px-6 py-2 bg-slate-700 rounded-lg text-white hover:opacity-80"
             >
               Close
