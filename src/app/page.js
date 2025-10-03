@@ -23,7 +23,7 @@ export default function Home() {
     const dispatch = useDispatch();
     const floatPageState = useSelector((state) => state.subPageStore.value);  
   return (
-    <main className="min-h-full min-w-full grid-rows-[auto_auto_auto_auto_auto_auto_auto_auto_auto_auto]  grid bg-white " >
+    <main className="min-h-full min-w-full grid-rows-[auto_auto_auto_auto_auto_auto_auto_auto_auto_auto]  grid bg-white overflow-y-hidden " >
       <NavbarComponent></NavbarComponent>
       <ParttwoComponent></ParttwoComponent>
       

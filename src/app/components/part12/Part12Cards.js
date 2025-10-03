@@ -11,8 +11,7 @@ const Part12Cards = ({ image, title }) => {
   return (
     <div className="relative w-full h-full bg-black grid grid-row-9 border border-black-700 rounded-lg overflow-hidden">
 
-      <div className=" w-full h-full text-gray-400"></div>
-      <div className="flex items-center justify-end w-full max-w-xs text-gray-400 p-3 rounded-xl">
+      <div className="flex    items-end justify-end w-full max-w-xs text-gray-400 p-3 rounded-xl ">
 
 
         <span className="bg-[#0b2b23] text-[#0f713b] text-xs px-3 py-1 rounded-full font-medium">
@@ -21,7 +20,7 @@ const Part12Cards = ({ image, title }) => {
       </div>
 
 
-      <div className="flex flex-col  text-gray-400   justify-end items-start  gap-3 pl-[1.1rem] ">
+      <div className="flex flex-col  text-gray-400 h-fit justify-end items-start  pl-[1.1rem] ">
         <div className="flex flex-row items-start justify-start text-[.7rem]  rounded-[2rem] p-1">
           <div className="bg-gradient-to-br from-[#4F8EF7] to-[#8B5CF6] w-16 h-16 rounded-xl flex items-center justify-center text-white font-bold">
             RPO
@@ -30,7 +29,7 @@ const Part12Cards = ({ image, title }) => {
       </div>
 
 
-      <div className="flex flex-col  text-gray-400   justify-end items-start  gap-3 pl-[1.1rem] ">
+      <div className="flex flex-col  text-gray-400   justify-end items-start  gap-3 pl-[1.1rem] h-fit ">
         <div className="flex flex-row items-start justify-start text-[.7rem]  rounded-[2rem] p-1">
           <p className="font-bold  text-blue-400">SAP Solutions</p>
         </div>
@@ -40,7 +39,7 @@ const Part12Cards = ({ image, title }) => {
 
 
 
-      <div className="flex flex-col  text-gray-400   justify-center items-center  gap-3  ">
+      <div className="flex flex-col  text-gray-400   justify-center items-center  gap-3 h-fit ">
         <div className="flex flex-row items-center justify-center text-sm ">
           <p className="  text-blue-400 text-bold text-[1.5rem] ">
             SAP S/4HANA Implementation & Migration
@@ -50,7 +49,7 @@ const Part12Cards = ({ image, title }) => {
 
 
 
-      <div className="flex flex-col  text-gray-400   justify-start items-start  gap-3 pl-[1.1rem] ">
+      <div className="flex flex-col  text-gray-400   justify-start items-start  gap-3 pl-[1.1rem] h-fit">
         <div className="flex flex-row items-start justify-start text-sm text-left">
           <p className="  text-gray-400 ">
             Complete SAP S/4HANA implementation and migration services with industry-specific ...
@@ -64,7 +63,7 @@ const Part12Cards = ({ image, title }) => {
 
 
 
-      <div className="flex flex-col  text-gray-400   justify-start items-start  gap-3 pl-[1.1rem] ">
+      <div className="flex flex-col  text-gray-400   justify-start items-start  gap-3 pl-[1.1rem] h-fit  ">
         <div className="flex flex-row items-start justify-start text-[1rem]">
           <p className="font-bold  text-blue-400">Key Features:</p>
         </div>

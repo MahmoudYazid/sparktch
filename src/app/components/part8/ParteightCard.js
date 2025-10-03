@@ -10,7 +10,7 @@ const ParteightCard = ({image,title,subtitle}) => {
             <div className=' w-full h-full grid grid-rows-[1fr_1fr]'>
 
                 <div className=' w-full h-full flex items-end justify-start  '>
-                    <p className='text-4xl bold text-black '>{title}</p>
+                    <p className='text-2xl md:text-4xl bold text-black '>{title}</p>
                 </div>
 
                  <div className=' w-full h-full flex items-start justify-start '>

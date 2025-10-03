@@ -5,8 +5,8 @@ const ParteightComponent = () => {
   return (
     <div className="w-full h-auto bg-[#F5F7FA] justify-center grid lg:grid-cols-2 grid-cols-1 px-6 lg:px-12 py-12 overflow-x-hidden gap-4">
 
-      <div className=" flex items-center justify-center p-3">
-        <div className="flex flex-col items-start justify-center space-y-4 ">
+      <div className=" flex items-center justify-center p-3 ">
+        <div className="flex flex-col  text-center md:text-left items-center md:items-start justify-center space-y-4 ">
           <p className="text-6xl text-black ">Helping a local</p>
           <p className="text-6xl text-[#4CAF4F]">business reinvent itself</p>
           <p className='text-2xl text-black  '>We reached here with our hard work and dedication</p>
